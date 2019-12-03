@@ -203,7 +203,7 @@ MonoBehaviour:
   ammoUsageRateWhileCharging: 2
   muzzleFlashPrefab: {fileID: 748781637555137343, guid: 9f671b22f25370048a18fb1f821294ec,
     type: 3}
-  shootSFX: {fileID: 8300000, guid: 53d2238f4c4b2aa4f8e559c7af9e0126, type: 3}
+  shootSFX: {fileID: 8300000, guid: cba089de3eef16d46baeda4077140a74, type: 3}
   changeWeaponSFX: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
 --- !u!114 &8745372878802205896
 MonoBehaviour:
