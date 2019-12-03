@@ -60,16 +60,16 @@ MonoBehaviour:
   radius: 0.1
   root: {fileID: 3659995153115176982}
   tip: {fileID: 1135791333161367127}
-  maxLifeTime: 5
+  maxLifeTime: 10000
   impactVFX: {fileID: 7655095426451682942, guid: 4d48b487f11e62940a978c7c0c0cbcb4,
     type: 3}
-  impactVFXLifetime: 5
+  impactVFXLifetime: 1
   impactVFXSpawnOffset: 0.1
   impactSFXClip: {fileID: 8300000, guid: 146e0c2c5a8e34a4db8b35096de9fcd1, type: 3}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  speed: 100
+  speed: 5
   gravityDownAcceleration: 0
   trajectoryCorrectionDistance: 5
   inheritWeaponVelocity: 0
