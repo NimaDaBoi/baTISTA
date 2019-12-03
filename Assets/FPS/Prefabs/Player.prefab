@@ -478,7 +478,7 @@ MonoBehaviour:
   jetpackVfx:
   - {fileID: 8223674029651735323}
   - {fileID: 8145349454922729230}
-  isJetpackUnlockedAtStart: 0
+  isJetpackUnlockedAtStart: 1
   jetpackAcceleration: 8
   jetpackDownwardVelocityCancelingFactor: 1
   consumeDuration: 1.5
