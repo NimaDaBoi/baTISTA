@@ -71,6 +71,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -120,10 +121,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 3383
   speed: 30
-  gravityDownAcceleration: 10
+  gravityDownAcceleration: 0
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
-  damage: 40
+  damage: 60
   areaOfDamage: {fileID: 1203337828444365110}
   radiusColor: {r: 0, g: 1, b: 1, a: 0.49803922}
 --- !u!114 &1203337828444365110
@@ -267,6 +268,7 @@ TrailRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
