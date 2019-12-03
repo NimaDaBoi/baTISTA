@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3471509760121373335}
   - component: {fileID: 7583640433812654122}
   m_Layer: 10
-  m_Name: Weapon_DiscLauncher
+  m_Name: Weapon_Launcher
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -61,18 +61,18 @@ MonoBehaviour:
     crosshairColor: {r: 0.4209304, g: 1, b: 0.32549024, a: 1}
   weaponRoot: {fileID: 5646165488041817916}
   weaponMuzzle: {fileID: 2749496858225023403}
-  shootType: 2
-  projectilePrefab: {fileID: 6867404450943131836, guid: 0e23901b938cf4f4eb86850d912715eb,
+  shootType: 0
+  projectilePrefab: {fileID: 528546716365072993, guid: 154bfb4989fe16d439e8f3fb7c20b72b,
     type: 3}
-  delayBetweenShots: 0.5
+  delayBetweenShots: 1
   bulletSpreadAngle: 0
   bulletsPerShot: 1
-  recoilForce: 1
-  aimZoomRatio: 0.8
-  aimOffset: {x: 0, y: 0, z: 0}
+  recoilForce: 2
+  aimZoomRatio: 0.3
+  aimOffset: {x: 0, y: 0.075, z: 0}
   ammoReloadRate: 1
-  ammoReloadDelay: 2
-  maxAmmo: 4
+  ammoReloadDelay: 1.5
+  maxAmmo: 6
   maxChargeDuration: 1.46
   ammoUsedOnStartCharge: 1
   ammoUsageRateWhileCharging: 1
@@ -368,6 +368,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -445,6 +446,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -524,6 +526,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -603,6 +606,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -681,6 +685,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
